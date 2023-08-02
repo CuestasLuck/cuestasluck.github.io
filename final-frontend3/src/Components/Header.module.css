@@ -1,0 +1,54 @@
+.header{
+    background-color: rgb(40, 40, 40);
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    background-color: rgb(40, 40, 40);
+    color: white;
+
+    padding: 20px;
+}
+.navbar{
+    background-color: rgb(40, 40, 40);
+    color: white;
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+
+    gap: 20px;
+}
+.menu{
+    background-color: rgb(40, 40, 40);
+
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+    margin: 40px;
+    gap: 10px;
+}
+.links{
+    color: white;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    padding: 10px;
+    margin: 10px; 
+}
+.themeButton{
+    background-color: rgb(90, 90, 90);
+    border: solid grey 1px;
+    color: white;
+
+    font-weight: bold;
+
+    border-radius: 20px;
+    margin: 30px;
+    padding: 5px 15px;
+}

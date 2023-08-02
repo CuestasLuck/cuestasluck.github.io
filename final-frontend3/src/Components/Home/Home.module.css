@@ -1,0 +1,58 @@
+:global(.dark) .card {
+    background-color: rgb(35, 35, 53);
+    border: solid rgb(120, 120, 120) 3px;
+    color: rgb(180, 180, 180);
+}
+:global(.dark) .cardSection {
+    background-color: rgb(60, 60, 60);
+}
+.home{
+    background-color: rgb(30, 30, 30);
+    color: white;
+
+    padding: 20px;
+}
+.cardSection {
+    background-color: rgb(255, 255, 255);
+
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    list-style: none;
+
+    padding: 20px;
+    gap: 25px;
+}
+.card {
+    background-color: rgb(162, 162, 162);
+    border: solid rgb(0, 0, 0) 2px;
+    color: rgb(0, 0, 0);
+    
+    text-align: center;
+    list-style: none;
+
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    padding: 15px;
+}
+.favBtn {
+    background-color: rgb(90, 90, 90);
+    border: solid grey 1px;
+    color: white;
+
+    font-weight: bold;
+
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+.links{
+    color: white;
+
+    text-decoration: none;
+    font-weight: bold;
+    
+    padding: 10px;
+    margin: 10px;
+}
